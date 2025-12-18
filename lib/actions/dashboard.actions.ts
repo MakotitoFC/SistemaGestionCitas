@@ -3,7 +3,6 @@
 
 
 import { cookies } from 'next/headers' // <-- Importamos cookies AQUÍ
-import { createClient } from '@/lib/server'
 
 /**
  * Obtiene los KPIs de citas (Tasa de Ausencia, etc.)
